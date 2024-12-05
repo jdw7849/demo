@@ -27,9 +27,9 @@ You can find demo version in (https://jdw7849.github.io/demo/)
 2-2. Click the link (https://jdw7849.github.io/demo/)
 
 ## Project Files
-index.html: Main page structure
-styles.css: Styling
-script.js: JavaScript for data updates and navigation
+- index.html: Main page structure
+- styles.css: Styling
+- script.js: JavaScript for data updates and navigation
 
 ## Acknowledgements
 This project was created for the WEB APPLICATION PROGRAMMING (CB2001105-062) course.
