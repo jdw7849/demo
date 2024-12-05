@@ -5,7 +5,7 @@ You can find demo version in (https://jdw7849.github.io/demo/)
 
 ## Features
 
-- **Real-time Data Updates**: Updates air quality data every 5 seconds with simulated random values.
+- **Real-time Data Updates**: Updates air quality data every 5 seconds with API calls or simulated random values.
 - **Interactive Charts**: Displays temperature, pollutant levels, and their distribution using Chart.js.
 - **Single Page Application (SPA)**: Smooth navigation without page reloads.
 - **Responsive Design**: Works well on both desktop and mobile devices.
@@ -22,7 +22,9 @@ You can find demo version in (https://jdw7849.github.io/demo/)
    ```bash
    git clone https://github.com/jdw7849/demo.git
 
-2. Open main.html in your browser.
+2-1. Open index.html in your browser.
+
+2-2. Click the link (https://jdw7849.github.io/demo/)
 
 ## Project Files
 index.html: Main page structure
