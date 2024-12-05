@@ -1,5 +1,9 @@
 let lineChart, barChart, doughnutChart;
-let updateInterval = null; // 업데이트 타이머 변수
+let updateInterval = null;
+
+const API_KEY = "862592e3-fcb6-4955-bbdc-adc1c51a0821";
+const latitude = 35.1796; // 부산의 위도
+const longitude = 129.0756; // 부산의 경도
 
 document.addEventListener('DOMContentLoaded', () => {
     setupSPA();
@@ -48,7 +52,6 @@ function initializeCharts() {
 }
 
 function startRealTimeData() {
-    // 타이머가 이미 실행 중이면 중단
     if (updateInterval) return;
 
     updateInterval = setInterval(() => {
@@ -124,7 +127,6 @@ function setupSPA() {
 function navigateTo(page) {
     const mainContent = document.getElementById('main-content');
 
-    // 페이지 전환 시 실시간 데이터 업데이트 중단
     stopRealTimeData();
 
     if (page === 'home') {
