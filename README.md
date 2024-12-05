@@ -19,12 +19,12 @@ A simple web application for monitoring air quality, showing real-time data and 
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/jdw7849/forked-repo.git
+   git clone https://github.com/jdw7849/demo.git
 
 2. Open main.html in your browser.
 
 ## Project Files
-main.html: Main page structure
+index.html: Main page structure
 styles.css: Styling
 script.js: JavaScript for data updates and navigation
 
